@@ -1,0 +1,89 @@
+<OrderRequest xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/NLProcessingVB.NLJobProcessing.Model">
+  <AcctNum>913507</AcctNum>
+  <CarrierInfo>
+    <Shipper>UPS</Shipper>
+    <ShipMethod>Ground</ShipMethod>  
+    <SpecialShipMethod></SpecialShipMethod>
+    <OtherShipperName></OtherShipperName>
+  </CarrierInfo>
+  <ConsigneeEmail></ConsigneeEmail>
+  <CustMasterRef>DEV0412201901</CustMasterRef>
+  <CustRef xmlns:d2p1="http://schemas.datacontract.org/2004/07/NLProcessingVB">
+    <d2p1:RefDtl>
+      <d2p1:Ref>DEV0412201902</d2p1:Ref>
+      <d2p1:TypeID>PS</d2p1:TypeID>
+    </d2p1:RefDtl>
+    <d2p1:RefDtl>
+      <d2p1:Ref>DEV0412201903</d2p1:Ref>
+      <d2p1:TypeID>OS</d2p1:TypeID>
+    </d2p1:RefDtl>
+  </CustRef>
+  <DLAddr1>5353 W Imperial Highway</DLAddr1>
+  <DLAddr2></DLAddr2>
+  <DLAfterHrsNum>1234567890</DLAfterHrsNum>
+  <DLAttn>PAM'LAMPHEAR</DLAttn>
+  <DLCity>LOS ANGELES</DLCity>
+  <DLCompany>NETWORK GLOBAL LOGISTICS</DLCompany>
+  <DLCountry>USA</DLCountry>
+  <DLHal>N</DLHal>
+  <DLInstr></DLInstr>
+  <DLPhoneNum>1234567895</DLPhoneNum>
+  <DLResFlag>N</DLResFlag>
+  <DLState>CA</DLState>
+  <DLZip>90045</DLZip>
+  <DSAFlag>N</DSAFlag>
+  <DeliveryNote></DeliveryNote>
+  <DryIceFlag>Y</DryIceFlag>
+  <FromFslId>ATL</FromFslId>
+  <HADFlag>N</HADFlag>
+  <HASFlag>N</HASFlag>
+  <HFPUFlag>N</HFPUFlag>
+  <InsertUserID>N</InsertUserID>
+  <InvList xmlns:d2p1="http://schemas.datacontract.org/2004/07/NLProcessingVB">
+    <d2p1:InvDtlRequest>
+      <d2p1:Field1>CISCO2621-32M-64M</d2p1:Field1>
+      <d2p1:Field2></d2p1:Field2>
+      <d2p1:Field3></d2p1:Field3>
+      <d2p1:Field4></d2p1:Field4>
+      <d2p1:Field5></d2p1:Field5>
+      <d2p1:Height>1</d2p1:Height>
+      <d2p1:Length>1</d2p1:Length>
+      <d2p1:LocationName></d2p1:LocationName>
+      <d2p1:OnHandType>D</d2p1:OnHandType>
+      <d2p1:Quantity>1</d2p1:Quantity>
+      <d2p1:WarehouseCode>ATL</d2p1:WarehouseCode>
+      <d2p1:Weight>1</d2p1:Weight>
+      <d2p1:Width>1</d2p1:Width>
+    </d2p1:InvDtlRequest>
+  </InvList>
+  <IsConALDropNotify>N</IsConALDropNotify>
+  <IsConDeliveredNotify>N</IsConDeliveredNotify>
+  <IsConDriverNotify>N</IsConDriverNotify>
+  <IsConOrderReceivedNotiy>N</IsConOrderReceivedNotiy>
+  <IsConPickupNotify>N</IsConPickupNotify>
+  <IsConQDTNotify>N</IsConQDTNotify>
+  <IsConRecoverNotify>N</IsConRecoverNotify>
+  <IsShipALDropNotify>N</IsShipALDropNotify>
+  <IsShipDeliveredNotify>N</IsShipDeliveredNotify>
+  <IsShipDriverNotify>N</IsShipDriverNotify>
+  <IsShipOrderReceivedNotiy>N</IsShipOrderReceivedNotiy>
+  <IsShipPickupNotify>N</IsShipPickupNotify>
+  <IsShipQDTNotify>N</IsShipQDTNotify>
+  <IsShipRecoverNotify>N</IsShipRecoverNotify>
+  <MBGFlag>N</MBGFlag>
+  <OrderDttm>09/25/2020 12:43</OrderDttm>
+  <PUAddr1>2500-B Sullivan Rd</PUAddr1>
+  <PUAddr2></PUAddr2>
+  <PUAfterHrsNum>1234567898</PUAfterHrsNum>
+  <PUCity>COLLEGE PARK</PUCity>
+  <PUCompany>ATL - NETWORK GLOBAL LOGISTICS</PUCompany>
+  <PUCountry>USA</PUCountry>
+  <PUInstr>FED EX STANDARD OVERNIGHT 3:00 PM</PUInstr>
+  <PUPerToSee></PUPerToSee>
+  <PUPhoneNum>1234567894</PUPhoneNum>
+  <PUState>GA</PUState>
+  <PUZip>30337</PUZip>
+  <Password>MDSI_WS_14</Password>
+  <ReadyDttm>09/25/2020 17:43</ReadyDttm>
+  <UserName>MDSI_WS</UserName>
+</OrderRequest>

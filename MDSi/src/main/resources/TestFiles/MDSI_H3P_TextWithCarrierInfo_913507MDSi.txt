@@ -1,0 +1,89 @@
+<nlp:ordtObj>
+  <nlp1:AcctNum>913507</nlp1:AcctNum>
+  <nlp1:CarrierInfo>
+		<nlp1:Shipper>FEDEX</nlp1:Shipper>
+		<nlp1:ShipMethod>FEDEX_GROUND</nlp1:ShipMethod>  
+		<nlp1:SpecialShipMethod></nlp1:SpecialShipMethod>
+		<nlp1:OtherShipperName></nlp1:OtherShipperName>
+	</nlp1:CarrierInfo>
+  <nlp1:ConsigneeEmail />
+  <Contents>Package</Contents>
+  <nlp1:CustMasterRef>SO0457635-PCK5815665</nlp1:CustMasterRef>
+  <nlp1:CustRef>
+    <nlp2:RefDtl>
+      <nlp2:Ref>PCK5815665</nlp2:Ref>
+      <nlp2:TypeID>PS</nlp2:TypeID>
+    </nlp2:RefDtl>
+    <nlp2:RefDtl>
+      <nlp2:Ref>SO0457635</nlp2:Ref>
+      <nlp2:TypeID>OS</nlp2:TypeID>
+    </nlp2:RefDtl>
+  </nlp1:CustRef>
+  <nlp1:DLAddr1>2001 6th Ave,#900 WESTIN BLDG</nlp1:DLAddr1>
+  <nlp1:DLAddr2 />
+  <nlp1:DLAfterHrsNum />
+  <nlp1:DLAttn>NTT NOC</nlp1:DLAttn>
+  <nlp1:DLCity>RICHMOND</nlp1:DLCity>
+  <nlp1:DLCompany>Wes</nlp1:DLCompany>
+  <nlp1:DLCountry>CAN</nlp1:DLCountry>
+  <nlp1:DLHal>N</nlp1:DLHal>
+  <nlp1:DLInstr />
+  <nlp1:DLPhoneNum>877-688-6621</nlp1:DLPhoneNum>
+  <nlp1:DLResFlag>N</nlp1:DLResFlag>
+  <nlp1:DLState>WA</nlp1:DLState>
+  <nlp1:DLZip>V7B 1Y7</nlp1:DLZip>
+  <nlp1:DSAFlag>N</nlp1:DSAFlag>
+  <nlp1:DeliveryNote />
+  <nlp1:DryIceFlag>N</nlp1:DryIceFlag>
+  <nlp1:HADFlag>N</nlp1:HADFlag>
+  <nlp1:HASFlag>N</nlp1:HASFlag>
+  <nlp1:HFPUFlag>N</nlp1:HFPUFlag>
+  <nlp1:InsertUserID>N</nlp1:InsertUserID>
+  <nlp1:InvList>
+    <nlp2:InvDtlRequest>
+      <nlp2:Field1>PWR-M120-AC</nlp2:Field1>
+      <nlp2:Field2></nlp2:Field2>
+      <nlp2:Field3 />
+      <nlp2:Field4 />
+      <nlp2:Field5 />
+      <nlp2:Height>1</nlp2:Height>
+      <nlp2:Length>1</nlp2:Length>
+      <nlp2:LocationName>NGL-LGA</nlp2:LocationName>
+      <nlp2:OnHandType>D</nlp2:OnHandType>
+      <nlp2:Quantity>1</nlp2:Quantity>
+      <nlp2:WarehouseCode>LGA</nlp2:WarehouseCode>
+      <nlp2:Weight>1</nlp2:Weight>
+      <nlp2:Width>1</nlp2:Width>
+    </nlp2:InvDtlRequest>
+  </nlp1:InvList>
+  <nlp1:IsConALDropNotify>N</nlp1:IsConALDropNotify>
+  <nlp1:IsConDeliveredNotify>N</nlp1:IsConDeliveredNotify>
+  <nlp1:IsConDriverNotify>N</nlp1:IsConDriverNotify>
+  <nlp1:IsConOrderReceivedNotiy>N</nlp1:IsConOrderReceivedNotiy>
+  <nlp1:IsConPickupNotify>N</nlp1:IsConPickupNotify>
+  <nlp1:IsConQDTNotify>N</nlp1:IsConQDTNotify>
+  <nlp1:IsConRecoverNotify>N</nlp1:IsConRecoverNotify>
+  <nlp1:IsShipALDropNotify>N</nlp1:IsShipALDropNotify>
+  <nlp1:IsShipDeliveredNotify>N</nlp1:IsShipDeliveredNotify>
+  <nlp1:IsShipDriverNotify>N</nlp1:IsShipDriverNotify>
+  <nlp1:IsShipOrderReceivedNotiy>N</nlp1:IsShipOrderReceivedNotiy>
+  <nlp1:IsShipPickupNotify>N</nlp1:IsShipPickupNotify>
+  <nlp1:IsShipQDTNotify>N</nlp1:IsShipQDTNotify>
+  <nlp1:IsShipRecoverNotify>N</nlp1:IsShipRecoverNotify>
+  <nlp1:MBGFlag>N</nlp1:MBGFlag>
+  <nlp1:OrderDttm>06/11/2020 06:43</nlp1:OrderDttm>
+  <nlp1:PUAddr1>19-22A 45TH STREET</nlp1:PUAddr1>
+  <nlp1:PUAddr2 />
+  <nlp1:PUAfterHrsNum />
+  <nlp1:PUCity>ASTORIA</nlp1:PUCity>
+  <nlp1:PUCompany>NETWORK GLOBAL LOGISTICS</nlp1:PUCompany>
+  <nlp1:PUCountry>USA</nlp1:PUCountry>
+  <nlp1:PUInstr>Shipping Instructions - Ship via Carrier: FEDEX  Bill To Account: 357509122  Delivery Mode: FED EX PRIORITY OVERNIGHT 10:30AM</nlp1:PUInstr>
+  <nlp1:PUPerToSee />
+  <nlp1:PUPhoneNum />
+  <nlp1:PUState>NY</nlp1:PUState>
+  <nlp1:PUZip>11105</nlp1:PUZip>
+  <nlp1:Password>MDSI_WS_14</nlp1:Password>
+  <nlp1:ReadyDttm>06/11/2020 07:43</nlp1:ReadyDttm>
+  <nlp1:UserName>MDSI_WS</nlp1:UserName>
+</nlp:ordtObj>

@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="MDSiSuite">
+	<test thread-count="5" name="MDSiOrderCreation">
+		<classes>
+			<class name="MDSi_EDIProcessing.MDSiOrderCreation" />
+		</classes>
+	</test> <!-- Test -->
+	<test thread-count="5" name="MDSiOrderTracking">
+		<classes>
+			<class name="MDSi_EDIProcessing.MDSiOrderTracking" />
+		</classes>
+	</test>
+</suite> <!-- NASuite -->
