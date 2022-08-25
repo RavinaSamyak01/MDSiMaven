@@ -103,7 +103,7 @@ public class MDSiOrderCreation extends StartUp {
 		// asharma@samyak.com,pgandhi@samyak.com,kunjan.modi@samyak.com,pdoshi@samyak.com
 		try {
 
-			Email.sendMail("ravina.prajapati@samyak.com,asharma@samyak.com,parth.doshi@samyak.com", subject,
+			Email.sendMail("ravina.prajapati@samyak.com,asharma@samyak.com,parth.doshi@samyak.com, saurabh.jain@samyak.com, himanshu.dholakia@samyak.com", subject,
 					msg.toString(), "");
 
 		} catch (Exception ex) {

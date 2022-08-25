@@ -125,7 +125,7 @@ public class MDSiOrderTracking extends StartUp {
 		String SS = ".\\src\\TestFiles\\MDSiTracking.jpg";
 //		/// asharma@samyak.com,pgandhi@samyak.com,kunjan.modi@samyak.com,pdoshi@samyak.com
 		try {
-			Email.sendMail("ravina.prajapati@samyak.com,asharma@samyak.com,parth.doshi@samyak.com", subject,
+			Email.sendMail("ravina.prajapati@samyak.com,asharma@samyak.com,parth.doshi@samyak.com, saurabh.jain@samyak.com, himanshu.dholakia@samyak.com", subject,
 					msg.toString(), SS);
 		} catch (Exception ex) {
 			Logger.getLogger(MDSiOrderCreation.class.getName()).log(Level.SEVERE, null, ex);
