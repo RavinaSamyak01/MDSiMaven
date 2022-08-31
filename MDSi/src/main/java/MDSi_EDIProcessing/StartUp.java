@@ -37,6 +37,9 @@ public class StartUp {
 		options.addArguments("--proxy-bypass-list=*");
 		options.addArguments("--disable-extensions");
 		options.addArguments("--no-sandbox");
+		options.addArguments("enable-automation");
+		options.addArguments("--dns-prefetch-disable");
+		options.addArguments("--disable-gpu");
 		String downloadFilepath = System.getProperty("user.dir") + "\\src\\main\\resources\\Downloads";
 		HashMap<String, Object> chromePrefs = new HashMap<String, Object>();
 		chromePrefs.put("profile.default_content_settings.popups", 0);
