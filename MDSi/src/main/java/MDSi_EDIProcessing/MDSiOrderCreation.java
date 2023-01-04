@@ -17,10 +17,12 @@ public class MDSiOrderCreation extends StartUp {
 	static StringBuilder msg = new StringBuilder();
 	static String jobid, jobNum1, jobNum;
 	static double OrderCreationTime;
+	public static String EmailID = storage.getProperty("MainEmailAddress");
 
 	@Test
 	public void mdSiOrderCreation() throws Exception {
 		long start, end;
+		System.out.println("MainEmailAddress " + EmailID);
 
 		String Env = storage.getProperty("Env");
 		System.out.println("Env " + Env);
@@ -103,8 +105,7 @@ public class MDSiOrderCreation extends StartUp {
 		// asharma@samyak.com,pgandhi@samyak.com,kunjan.modi@samyak.com,pdoshi@samyak.com
 		try {
 
-			Email.sendMail("ravina.prajapati@samyak.com,asharma@samyak.com,parth.doshi@samyak.com, saurabh.jain@samyak.com, himanshu.dholakia@samyak.com", subject,
-					msg.toString(), "");
+			Email.sendMail(EmailID, subject, msg.toString(), "");
 
 		} catch (Exception ex) {
 			Logger.getLogger(MDSiOrderCreation.class.getName()).log(Level.SEVERE, null, ex);
