@@ -14,13 +14,14 @@ import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
+import java.util.ResourceBundle;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class StartUp {
 	static WebDriver driver;
 	public static Properties storage = new Properties();
-
+public static ResourceBundle rb = ResourceBundle.getBundle("config");
 	@BeforeSuite
 	public void startUp() throws IOException {
 		storage = new Properties();

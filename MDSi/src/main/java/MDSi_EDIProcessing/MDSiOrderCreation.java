@@ -17,7 +17,7 @@ public class MDSiOrderCreation extends StartUp {
 	static StringBuilder msg = new StringBuilder();
 	static String jobid, jobNum1, jobNum;
 	static double OrderCreationTime;
-	public static String EmailID = storage.getProperty("MainEmailAddress");
+	public static String EmailID = rb.getString("MainEmailAddress");
 
 	@Test
 	public void mdSiOrderCreation() throws Exception {
